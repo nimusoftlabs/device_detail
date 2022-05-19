@@ -1,6 +1,6 @@
 name: device_detail
 description: A new Flutter library for getting platform information.
-version: 0.0.1
+version: 0.0.3
 homepage: https://www.linkedin.com/in/tusharhow/
 
 environment:
