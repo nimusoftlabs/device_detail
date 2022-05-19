@@ -11,7 +11,7 @@ Multiple instances are not being created since thanks to a factory constructor i
 returns an internal singleton:
 
 ```dart
-import 'package:device_info/device_info.dart';
+import 'package:device_detail/device_detail.dart';
 
 if (PlatformInfo().isMobile) {
   print('The current platform is Mobile');

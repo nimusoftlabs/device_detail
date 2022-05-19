@@ -1,14 +1,14 @@
 import 'package:flutter/foundation.dart';
 
 /// Allows you to determine platform info such as operating system or environment
-class PlatformInfo {
-  static PlatformInfo singleton = PlatformInfo._internal();
+class DeviceDetail {
+  static DeviceDetail _singleton = DeviceDetail._internal();
 
-  factory PlatformInfo() {
-    return singleton;
+  factory DeviceDetail() {
+    return _singleton;
   }
 
-  PlatformInfo._internal();
+  DeviceDetail._internal();
 
   /// This parameter checks if the current platform is macos, linux or windows. THE WEB PLATFORM IS NOT INCLUDED!
   bool get isDesktop =>
